@@ -1,0 +1,43 @@
+@import url(fonts.css);
+
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Alan+Sans&display=swap");
+body {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+}
+.title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   color: #37393f;
+   text-align: left;
+   text-decoration: none;
+   text-transform: capitalize;
+   line-height: 1.27;
+   text-shadow: 5px 10px 3px #6b77e5, -3px -8px 6px #37393f;
+}
+.text {
+   /* text-indent: 50px;
+   white-space: normal;
+   word-spacing: 40px; */
+   color: #7d7d7d;
+   line-height: 1.46;
+}
+.subtitle {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   color: #6b77e5;
+   line-height: 1.27;
+   text-shadow: 5px 5px 2px #d7139f;
+}
+.post-subtitle{
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.46;
+}
+.list,
+.number-list{
+   text-indent: 16px;
+}
