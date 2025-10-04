@@ -1,0 +1,204 @@
+@import url(fonts.css);
+@import url(reset.css);
+body {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   color: #7d7d7d;
+}
+/* Перший блок */
+.block1 {
+   max-width: 1248px;
+   padding: 0 15px;
+   line-height: 1.46;
+   margin: 0 auto;
+}
+.subtitle-blk {
+   font-size: 0;
+   text-align: center;
+   margin-bottom: 16px;
+   margin-top: 50px;
+   border: 1px dashed #37393f;
+   /* border-radius: 50px;
+   outline: 5px solid #40ddb6; */
+   box-shadow: 5px 7px 5px 6px rgba(0, 0, 0, 0.582);
+}
+h5,
+.rectangle {
+   display: inline-block;
+}
+.rectangle {
+   width: 12px;
+   height: 12px;
+   background-color: #40ddb6;
+   margin-right: 8px;
+}
+.subtitle {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   color: #37393f;
+}
+.title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 60px;
+   color: #37393f;
+   line-height: 1.21;
+   text-align: center;
+   margin-bottom: 70px;
+}
+.block-item {
+   margin-bottom: 100px;
+}
+.sub-title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   color: #37393f;
+   line-height: 1.21;
+   margin-bottom: 11px;
+}
+.subtitle-block {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   color: #37393f;
+   line-height: 1;
+}
+.subtitle-block span {
+   font-weight: 400;
+   color: #40ddb6;
+}
+.subtitle-block + .text {
+   color: #40ddb6;
+}
+.block-text {
+   margin-bottom: 24px;
+}
+.subtitle-block {
+   margin-bottom: 8px;
+}
+.mark {
+   font-weight: 500;
+   color: #40ddb6;
+}
+/* Другий блок */
+.block2 {
+   max-width: 860px;
+   margin: 0 auto 50px;
+   padding: 0 15px;
+   line-height: 1.46;
+}
+.block2-title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.27;
+   margin-bottom: 13px;
+   color: #37393f;
+}
+.block2-text p,
+.block2-text li {
+   margin-bottom: 35px;
+}
+.block2-text ul,
+.block2-text ol {
+   margin-left: 16px;
+}
+/* Третій блок */
+.block3 {
+   max-width: 1249px;
+   margin: 0 auto 50px;
+   padding: 0 15px;
+   line-height: 2;
+}
+.block3-title-block{
+   font-size: 0;
+}
+.block3-title {
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: normal;
+   margin-bottom: 30px;
+   color: #3c4242;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.block3-all-text {
+   padding-left: 21px;
+}
+.square {
+   width: 6px;
+   height: 28px;
+   background-color: #8a33fd;
+   display: inline-block;
+   margin-right: 15px;
+   border-radius: 10px;
+}
+.block3-bold{
+   color: rgba(128, 125, 126, 1);
+font-family: "Core Sans C", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.67;
+margin-bottom: 25px;
+}
+
+.block3-all-text p{
+   margin-bottom: 20px;
+}
+.block4{
+  max-width: 1639px;
+   margin: 0 auto 100px;
+   padding: 0 15px;
+}
+.block4-text-block {
+   font-size: 0;
+   display: inline-block;
+   max-width: 503px;
+     vertical-align: top;
+}
+.block4-subtitle {
+   color: rgba(213, 132, 23, 1);
+font-family: "Cormorant Infant", serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.2;
+text-transform: uppercase;
+margin-bottom: 27px;
+}
+.block4-title {
+   color: rgba(0, 0, 0, 1);
+font-family: "Cormorant Infant", serif;
+font-size: 64px;
+font-weight: 700;
+line-height: 1.22;
+margin-bottom: 31px;
+}
+.block4-text {
+color: rgba(96, 96, 96, 1);
+font-family: "Cormorant Infant", serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 1.2;
+
+}
+.block-4-images {
+   display: inline-block;
+}
+.block4-img {
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 0;
+   border: 1px solid rgba(80, 34, 3, 1);
+border-radius: 235px;
+margin-right: 30px;
+}
+.block4-img img{
+   margin-left: -10px;
+   padding-top: 14px;
+   padding-right: 10px;
+}
+
